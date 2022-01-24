@@ -1,0 +1,92 @@
+/* CSS for custom design */
+/* rows and columns */
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="column-"]
+{
+    float: center;
+    padding: 2px;
+    width: 100%;
+}
+@media only screen and (min-width:768px) /* different size and width for every custom column */
+{
+    .column-1{width: 8.33%;}
+    .column-2{width: 16.66%;}
+    .column-3{width: 25%;}
+    .column-4{width: 33.33%;}
+    .column-5{width: 41.66%;}
+    .column-6{width: 50%;}
+    .column-7{width: 58.33%;}
+    .column-8{width: 66.66%;}
+    .column-9{width: 75%;}
+    .column-10{width: 83.33%;}
+    .column-11{width: 91.66%;}
+    .column-12{width: 100%; display: inline;}
+}
+*{
+    box-sizing: border-box;
+}
+.header-content
+{
+    background-color: #444b52;
+    color: white;
+    font-size: 40px;
+    padding: 10px 15px 10px 15px;
+    position: sticky;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.registerTitle
+{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.borderRegistration /* border for the registration input menu */
+{
+    border: 4px solid black;
+    border-radius: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    max-width: 100%;
+}
+
+input /* changed input design */
+{
+    text-align: center;
+    font-size: 100%;
+    color: solid black;
+    width: auto;
+    height: 35px;
+    border-radius: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+.button /* created custom button design */
+{
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    max-width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    align-self: center;
+}
