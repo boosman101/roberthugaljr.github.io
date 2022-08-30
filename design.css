@@ -141,7 +141,7 @@ section{
     font-family: 'Ubuntu', sans-serif;
 }
 .about .title::after{
-    content: "A Student at STI College Caloocan";
+    content: "I Graduated at STI College Caloocan";
     position: absolute;
     bottom: -15px;
     left: 50%;
@@ -202,7 +202,7 @@ section{
     margin-bottom: 200px;
 }
 .works .title::after{
-    content: "Here is some of my work";
+    content: "Here are some samples of my work";
     position: absolute;
     bottom: -15px;
     left: 50%;
