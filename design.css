@@ -249,6 +249,7 @@ section{
     font-size: 14px;
     transition: all 0.3s ease;
     padding-bottom: 20px;
+    text-align: center;
 }
 .works .carousel .card:hover p{
     color: black;
